@@ -1,6 +1,7 @@
 import pygame
 import sys
 
+
 class Missile:
     def __init__(self, screen, x):
         # Store the data.  Initialize:   y to 591   and   has_exploded to False.
@@ -56,7 +57,7 @@ class Fighter:
                 del self.missiles[k]
 
 
-def main():
+def main():   # This is a FAKE main that I use to do my testing!
     pygame.init()
     clock = pygame.time.Clock()
     pygame.display.set_caption("Testing the Fighter and Missiles only")

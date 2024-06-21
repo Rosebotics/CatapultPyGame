@@ -33,3 +33,27 @@
 # Sound Effects (DogBark)
 # dog_bark = pygame.mixer.Sound("bark.mp3")
 # dog_bark.play()
+
+# Getting the mouse position
+# if event.type == pygame.MOUSEBUTTONDOWN:
+# print(f"You clicked at {pygame.mouse.get_pos()}")
+
+# Background music
+# pygame.mixer.music.load("drums.wav")
+# pygame.mixer.music.play(-1)
+# pygame.mixer.music.stop()
+
+# OOP --> Make sprite classes
+# Objects know stuff (instance variables)
+# Objects can do stuff (methods)
+# Example:
+#   to make an object (instance) of a class call the constructor
+# class Hero:
+#     def __init__(self, screen: pygame.Surface, x, y, with_umbrella_filename, without_umbrella_filename):
+#         """ Creates a Hero sprite (Mike) that does not move. If hit by rain he'll put up his umbrella. """
+#         self.screen = screen
+#         self.x = x
+#         self.y = y
+#         self.image_umbrella = pygame.image.load(with_umbrella_filename)
+#         self.image_no_umbrella = pygame.image.load(without_umbrella_filename)
+#         self.last_hit_time = 0
